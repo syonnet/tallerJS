@@ -10,7 +10,7 @@ function calcularMedia() {
     // Mostrar el resultado 
     var resultadoDiv = document.getElementById("resultado");
     if (media < 7) {
-      resultadoDiv.innerHTML = "Suspendido con una media de " + media;
+      resultadoDiv.innerHTML = "Reprobado con una media de " + media;
     } else {
       resultadoDiv.innerHTML = "Aprobado con una media de " + media;
     }
