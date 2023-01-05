@@ -1,9 +1,9 @@
 function calcularDescuento() {
     // Obtener el nombre del coche
-    var nombreCoche = document.getElementById("coche").value;
+    let nombreCoche = document.getElementById("coche").value;
   
     // Establecer el descuento en 0 por defecto
-    var descuento = 0;
+    let descuento = 0;
   
     // Si el nombre del coche es "ford fiesta", establecer el descuento en 5%
     if (nombreCoche.toLowerCase() === "ford fiesta") {
